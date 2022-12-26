@@ -1,6 +1,7 @@
 import sympy
 
-# Define the symbols for the angular momenta
+# Define the symbols for the angular momenta (j1,j2)
+# and and projection quantum numbers (m1,m2)
 j1, j2, m1, m2 = sympy.symbols('j1 j2 m1 m2')
 
 # Define the Clebsch–Gordan coefficients
